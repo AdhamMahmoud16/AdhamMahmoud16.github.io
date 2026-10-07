@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(59, 46, 33);
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: rgb(0, 255, 255);
+    width: 100%;
+    text-align: center;
+}
+
+h2, h3 {
+    color: rgb(255, 220, 150);
+}
+
+a {
+    color: rgb(0, 255, 255);
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main table {
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+main table th,
+main table td {
+    border: 2px solid aliceblue;
+    width: auto;
+    padding: 6px 12px;
+    text-align: left;
+}
+
+main table th {
+    background-color: rgb(90, 70, 50);
+}
+
+main > a {
+    text-decoration: none;
+}
+
+label {
+    margin-right: 5px;
+}
+
+input,
+select,
+textarea {
+    padding: 4px;
+    font-family: inherit;
+}
+
+input[type="submit"] {
+    padding: 6px 16px;
+    cursor: pointer;
+}
+
+form p {
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
